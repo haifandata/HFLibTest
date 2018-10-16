@@ -1,0 +1,16 @@
+PODS:
+  - HFLibTest (0.1.0)
+
+DEPENDENCIES:
+  - HFLibTest (from `../`)
+
+EXTERNAL SOURCES:
+  HFLibTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFLibTest: d9aff2c8d15b8b92f32b55681435c0542b48de03
+
+PODFILE CHECKSUM: 15acc7e539444cf325025ffb81f48095c3ed1666
+
+COCOAPODS: 1.5.2

@@ -1,0 +1,6 @@
+framework module HFLibTest {
+  umbrella header "HFLibTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

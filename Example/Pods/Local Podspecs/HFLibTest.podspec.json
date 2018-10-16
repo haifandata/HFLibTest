@@ -1,0 +1,22 @@
+{
+  "name": "HFLibTest",
+  "version": "0.1.0",
+  "summary": "A short description of HFLibTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1071942338/HFLibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1071942338": "1071942338@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1071942338/HFLibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HFLibTest/Classes/**/*"
+}
