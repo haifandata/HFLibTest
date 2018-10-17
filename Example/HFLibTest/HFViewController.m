@@ -27,9 +27,7 @@
 }
 - (IBAction)openAction:(UIButton *)sender {
     HFTestViewController *VC = [[HFTestViewController alloc] init];
-    VC.view.backgroundColor = [UIColor blueColor];
     [self presentViewController:VC animated:YES completion:nil];
-    [VC loadSomething];
 }
 
 @end

@@ -16,8 +16,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"HFTestViewController");
+    
+    UIButton *button = [[UIButton alloc] init];
+    button.center = self.view.center;
+    button.bounds = CGRectMake(0, 0, 100, 100);
+    button.backgroundColor = [UIColor lightGrayColor];
+    [button setTitle:@"关闭" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(closeAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
 }
 - (IBAction)closeAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
