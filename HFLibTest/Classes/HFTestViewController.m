@@ -16,11 +16,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"HFTestViewController");
 }
 - (IBAction)closeAction:(UIButton *)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+-(void)loadSomething{
+    
+    NSLog(@"loadSomething");
+
+}
 /*
 #pragma mark - Navigation
 
