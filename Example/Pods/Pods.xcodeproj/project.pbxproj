@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DF213F6387AC214D7195F0752F6818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4BD8BFA721762C9600FB0579 /* HFTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD8BFA421762C9600FB0579 /* HFTestViewController.h */; };
-		4BD8BFA821762C9600FB0579 /* HFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD8BFA521762C9600FB0579 /* HFTestViewController.m */; };
+		1482707CE6DA31DABD8472524112B2E8 /* HFTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA6660C25E5AA018C75046E279F4BCA /* HFTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30B8D64E7BDBF531678D7944166783F3 /* HFTestViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = E642136E0C3EEFA349EC5F1F0534ACB8 /* HFTestViewController.xib */; };
 		52A19CDACB6553BC89C18BD9C59DA7FF /* Pods-HFLibTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9387E430CFEA73545BF624894B932B2 /* Pods-HFLibTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F18107F4EE9005B3BDE2F418B7FAE0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		72EE698099D81FD42CEC8E41D303D151 /* Pods-HFLibTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B20834DF23E08770E22D4BC00D1135AF /* Pods-HFLibTest_Example-dummy.m */; };
 		8BDCDCD297B19B369758606B630C4857 /* Pods-HFLibTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F94B1B9445E37C09878265C9ADDC2A2 /* Pods-HFLibTest_Tests-dummy.m */; };
 		99CB61EDC5C0E1A23C507DC7B9BE827C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9BCF0840718D1FBAED38582DCD42ABCD /* Pods-HFLibTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8131C56803B616A610BCBAD7E3B23DF5 /* Pods-HFLibTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A372ED48E889BF652F26B74578E04F95 /* HFLibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6DECE72182CC9976AC0D023F4FC7F /* HFLibTest-dummy.m */; };
+		A44E3B3E920814FB93A548CE7FB87448 /* HFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4205FA65115DE5AD54DF39BAE443B4CA /* HFTestViewController.m */; };
+		C0F9D4A7961F2E9866EABD0A88BCFB62 /* HFLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE280F1433C63E74BF9EEDD86BA4103B /* HFLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0D5C0DB428E45581EB207B186FCC146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E22D6FFC641E46DBBAC40C4B4863FCB9 /* HFLibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1110FEACD41E51E2F729DD1164622851 /* HFLibTest-dummy.m */; };
-		FEF776A55C6C11C31DFF6B05C9549202 /* HFLibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A7997A35A407D9A924EAB0A100E457E /* HFLibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAD2B4C6699C491C65CE38F1D55E1E06;
+			remoteGlobalIDString = BB94741F20987180B9D43BF2962D4BD0;
 			remoteInfo = HFLibTest;
 		};
 		62DAF4AB4495B6E38B083DC41F17F92B /* PBXContainerItemProxy */ = {
@@ -39,42 +40,42 @@
 
 /* Begin PBXFileReference section */
 		0C05B0C39C9DCEBCD8017929CDDEC668 /* Pods-HFLibTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLibTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1110FEACD41E51E2F729DD1164622851 /* HFLibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFLibTest-dummy.m"; sourceTree = "<group>"; };
 		12367470C3468F3EAA2521B5530EF54A /* Pods-HFLibTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFLibTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BB6DECE72182CC9976AC0D023F4FC7F /* HFLibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFLibTest-dummy.m"; sourceTree = "<group>"; };
 		221BAB7C8A99572F7E666BBE2B2061D7 /* Pods-HFLibTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFLibTest_Tests.modulemap"; sourceTree = "<group>"; };
-		2C9553F0BE482A9DF5D80703E0AF84C6 /* Pods_HFLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFLibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31CA70E95B9EF4A99EAA7926C2D19293 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34D44A3EEAE7B6D71CAAE15B2BFF43EC /* HFLibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLibTest-prefix.pch"; sourceTree = "<group>"; };
+		2AA6660C25E5AA018C75046E279F4BCA /* HFTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFTestViewController.h; path = HFLibTest/Classes/HFTestViewController.h; sourceTree = "<group>"; };
+		2C9553F0BE482A9DF5D80703E0AF84C6 /* Pods_HFLibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HFLibTest_Example.framework; path = "Pods-HFLibTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A894D3F9BC5D87DF8543601059FA95 /* Pods-HFLibTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFLibTest_Example.modulemap"; sourceTree = "<group>"; };
-		3CE043B502BBC0DB56C08DEB2DAD7910 /* HFLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFLibTest.xcconfig; sourceTree = "<group>"; };
 		3E9D918925B7E9D8D2275D49C593BCE9 /* Pods-HFLibTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFLibTest_Tests-resources.sh"; sourceTree = "<group>"; };
-		4900520CF482BDD2D219F21981506A81 /* HFLibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HFLibTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4BD8BFA421762C9600FB0579 /* HFTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFTestViewController.h; sourceTree = "<group>"; };
-		4BD8BFA521762C9600FB0579 /* HFTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFTestViewController.m; sourceTree = "<group>"; };
-		4BD8BFA621762C9600FB0579 /* HFTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HFTestViewController.xib; sourceTree = "<group>"; };
+		4205FA65115DE5AD54DF39BAE443B4CA /* HFTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFTestViewController.m; path = HFLibTest/Classes/HFTestViewController.m; sourceTree = "<group>"; };
+		4FEEB75BBD48AD7350DC864E2BB60892 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		56FC8AFBCD09D3067FA40E3932A4109F /* Pods-HFLibTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFLibTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A8DB635E0F6EF73947F86113CA48AB2 /* HFLibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFLibTest.modulemap; sourceTree = "<group>"; };
+		68D76C08606E0288209A43DED6CB6C05 /* HFLibTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFLibTest.xcconfig; sourceTree = "<group>"; };
+		7B021D9E6DB38F100CBC330758637FBE /* HFLibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFLibTest.modulemap; sourceTree = "<group>"; };
 		8131C56803B616A610BCBAD7E3B23DF5 /* Pods-HFLibTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFLibTest_Tests-umbrella.h"; sourceTree = "<group>"; };
-		85856F42154F8E553FDFFC5DD9574F69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		86678F29EB6612840BC73E5EA2B3E57C /* Pods-HFLibTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLibTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		86ADD8F30884F5E242645969DA9CA030 /* Pods-HFLibTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLibTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8A7997A35A407D9A924EAB0A100E457E /* HFLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLibTest-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970BAE989E51C1003FABE74D2EEA90B2 /* Pods-HFLibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9F94B1B9445E37C09878265C9ADDC2A2 /* Pods-HFLibTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFLibTest_Tests-dummy.m"; sourceTree = "<group>"; };
-		A9852EA35339FAD9C7B8407F9048A6B4 /* HFLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HFLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B4D951A5850B7B357C25BC0C5706E3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9852EA35339FAD9C7B8407F9048A6B4 /* HFLibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFLibTest.framework; path = HFLibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05483ACFF6C4E23F26C0CDCE4AC6B83 /* Pods-HFLibTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFLibTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B20834DF23E08770E22D4BC00D1135AF /* Pods-HFLibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFLibTest_Example-dummy.m"; sourceTree = "<group>"; };
 		C30C4F019224FECC79DED779A27CE5EF /* Pods-HFLibTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFLibTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C667E2222739A25C5441CF6330F46749 /* Pods-HFLibTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFLibTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEC8E6F23D07184B4BEA1159196757D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D8D3D21898B6826AB349A9EF53D42F9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9387E430CFEA73545BF624894B932B2 /* Pods-HFLibTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFLibTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		D9A93EDD310887E61EF277CB861F7D66 /* HFLibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLibTest-prefix.pch"; sourceTree = "<group>"; };
 		D9E633396775B7040B3D271BE16B690B /* Pods-HFLibTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFLibTest_Example-resources.sh"; sourceTree = "<group>"; };
 		DDF10A4E3751348547502EDE70358E55 /* Pods-HFLibTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFLibTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DF250A12DD91751C0D0119A913C08ABE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E642136E0C3EEFA349EC5F1F0534ACB8 /* HFTestViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HFTestViewController.xib; path = HFLibTest/Classes/HFTestViewController.xib; sourceTree = "<group>"; };
+		EA020EA324FB57C4B7D78E05D48111A7 /* HFLibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HFLibTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED4C865BFC4291851AF37F60E2155355 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBC57503C241AB1D015280EB1B7A6358 /* Pods_HFLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFLibTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC57503C241AB1D015280EB1B7A6358 /* Pods_HFLibTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HFLibTest_Tests.framework; path = "Pods-HFLibTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE280F1433C63E74BF9EEDD86BA4103B /* HFLibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFLibTest-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,19 +87,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FAC13C6ED3470DD123E76EB9D9868E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F18107F4EE9005B3BDE2F418B7FAE0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A406F245BD90DB6D43374645BD529202 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99CB61EDC5C0E1A23C507DC7B9BE827C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5FD66CD6C8A1DDA4060431423E65277 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01DF213F6387AC214D7195F0752F6818 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +123,14 @@
 				47E04F7F972AD1A2525D99D2E97D386A /* Pods-HFLibTest_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44A5B2A92D145C533FBF7674FCC73937 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D732DAFEC83F1CFBCF9E3294CC7B5A75 /* HFLibTest */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		47E04F7F972AD1A2525D99D2E97D386A /* Pods-HFLibTest_Tests */ = {
@@ -168,15 +177,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		60C7DE878D0E108632B390A51059D69F /* Support Files */ = {
+		695DC8F1501EA94DFDC1CFDFB03A4DB9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A8DB635E0F6EF73947F86113CA48AB2 /* HFLibTest.modulemap */,
-				3CE043B502BBC0DB56C08DEB2DAD7910 /* HFLibTest.xcconfig */,
-				1110FEACD41E51E2F729DD1164622851 /* HFLibTest-dummy.m */,
-				34D44A3EEAE7B6D71CAAE15B2BFF43EC /* HFLibTest-prefix.pch */,
-				8A7997A35A407D9A924EAB0A100E457E /* HFLibTest-umbrella.h */,
-				31CA70E95B9EF4A99EAA7926C2D19293 /* Info.plist */,
+				7B021D9E6DB38F100CBC330758637FBE /* HFLibTest.modulemap */,
+				68D76C08606E0288209A43DED6CB6C05 /* HFLibTest.xcconfig */,
+				1BB6DECE72182CC9976AC0D023F4FC7F /* HFLibTest-dummy.m */,
+				D9A93EDD310887E61EF277CB861F7D66 /* HFLibTest-prefix.pch */,
+				FE280F1433C63E74BF9EEDD86BA4103B /* HFLibTest-umbrella.h */,
+				DF250A12DD91751C0D0119A913C08ABE /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HFLibTest";
@@ -186,19 +195,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B04457F63E604C48DA9626D8427FEB90 /* Development Pods */,
+				44A5B2A92D145C533FBF7674FCC73937 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				1B242AD57DDA9E79AD639DEC07E8A561 /* Products */,
 				21855D5B38D64E71A5D05380076F1041 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		B04457F63E604C48DA9626D8427FEB90 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E5E170B609B512138A41F6CD808DBC49 /* HFLibTest */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -209,38 +210,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5E170B609B512138A41F6CD808DBC49 /* HFLibTest */ = {
+		D2C20BB2141C44F0FA1FF367ED11CA3B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E6A25018752770EFF690AC504DB503CA /* Pod */,
-				60C7DE878D0E108632B390A51059D69F /* Support Files */,
-				4BD8BFA421762C9600FB0579 /* HFTestViewController.h */,
-				4BD8BFA521762C9600FB0579 /* HFTestViewController.m */,
-				4BD8BFA621762C9600FB0579 /* HFTestViewController.xib */,
+				EA020EA324FB57C4B7D78E05D48111A7 /* HFLibTest.podspec */,
+				4FEEB75BBD48AD7350DC864E2BB60892 /* LICENSE */,
+				A6B4D951A5850B7B357C25BC0C5706E3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D732DAFEC83F1CFBCF9E3294CC7B5A75 /* HFLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				2AA6660C25E5AA018C75046E279F4BCA /* HFTestViewController.h */,
+				4205FA65115DE5AD54DF39BAE443B4CA /* HFTestViewController.m */,
+				E642136E0C3EEFA349EC5F1F0534ACB8 /* HFTestViewController.xib */,
+				D2C20BB2141C44F0FA1FF367ED11CA3B /* Pod */,
+				695DC8F1501EA94DFDC1CFDFB03A4DB9 /* Support Files */,
 			);
 			name = HFLibTest;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E6A25018752770EFF690AC504DB503CA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4900520CF482BDD2D219F21981506A81 /* HFLibTest.podspec */,
-				CEC8E6F23D07184B4BEA1159196757D7 /* LICENSE */,
-				85856F42154F8E553FDFFC5DD9574F69 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		68DD3B2FCD4EE3F1E641213CB4254254 /* Headers */ = {
+		7778ACE619CC2A492A306DCF1E0E324D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF776A55C6C11C31DFF6B05C9549202 /* HFLibTest-umbrella.h in Headers */,
-				4BD8BFA721762C9600FB0579 /* HFTestViewController.h in Headers */,
+				C0F9D4A7961F2E9866EABD0A88BCFB62 /* HFLibTest-umbrella.h in Headers */,
+				1482707CE6DA31DABD8472524112B2E8 /* HFTestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +282,13 @@
 			productReference = FBC57503C241AB1D015280EB1B7A6358 /* Pods_HFLibTest_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DAD2B4C6699C491C65CE38F1D55E1E06 /* HFLibTest */ = {
+		BB94741F20987180B9D43BF2962D4BD0 /* HFLibTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D3BB8BA196C0C7C33C31FB962E16441 /* Build configuration list for PBXNativeTarget "HFLibTest" */;
+			buildConfigurationList = BFA3B48BD29BC3D06CBAA3E9C454E1AC /* Build configuration list for PBXNativeTarget "HFLibTest" */;
 			buildPhases = (
-				BD3936FAFFA75C8E1B23176787D92F5F /* Sources */,
-				B5FD66CD6C8A1DDA4060431423E65277 /* Frameworks */,
-				68DD3B2FCD4EE3F1E641213CB4254254 /* Headers */,
+				B1F89257B9B1B61A911E995D0E54D388 /* Sources */,
+				8FAC13C6ED3470DD123E76EB9D9868E0 /* Frameworks */,
+				7778ACE619CC2A492A306DCF1E0E324D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -337,7 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAD2B4C6699C491C65CE38F1D55E1E06 /* HFLibTest */,
+				BB94741F20987180B9D43BF2962D4BD0 /* HFLibTest */,
 				DDE1F25FA1BA207A65D37290E587E29D /* Pods-HFLibTest_Example */,
 				36CBE7F1639EF67F6425BA03C3B0070D /* Pods-HFLibTest_Tests */,
 			);
@@ -353,12 +354,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD3936FAFFA75C8E1B23176787D92F5F /* Sources */ = {
+		B1F89257B9B1B61A911E995D0E54D388 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD8BFA821762C9600FB0579 /* HFTestViewController.m in Sources */,
-				E22D6FFC641E46DBBAC40C4B4863FCB9 /* HFLibTest-dummy.m in Sources */,
+				A372ED48E889BF652F26B74578E04F95 /* HFLibTest-dummy.m in Sources */,
+				A44E3B3E920814FB93A548CE7FB87448 /* HFTestViewController.m in Sources */,
+				30B8D64E7BDBF531678D7944166783F3 /* HFTestViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +378,7 @@
 		1F5DCBCCD3BCD5820F19C95BB3DA6DD7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HFLibTest;
-			target = DAD2B4C6699C491C65CE38F1D55E1E06 /* HFLibTest */;
+			target = BB94741F20987180B9D43BF2962D4BD0 /* HFLibTest */;
 			targetProxy = 15521D36E330C69FBA331CA61FC832F3 /* PBXContainerItemProxy */;
 		};
 		80535F5CD6D95EE446D81AC31B7268DB /* PBXTargetDependency */ = {
@@ -388,9 +390,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2CED564DE409D27270FF0DF5D2A6F472 /* Release */ = {
+		2930611B774F0EC76F858F5AFD0A4C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CE043B502BBC0DB56C08DEB2DAD7910 /* HFLibTest.xcconfig */;
+			baseConfigurationReference = 68D76C08606E0288209A43DED6CB6C05 /* HFLibTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -413,11 +415,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4CC8CCC043C4BCE3206245B5801A028C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -607,9 +608,9 @@
 			};
 			name = Release;
 		};
-		BA7A060594468547873851610FAEFB7A /* Debug */ = {
+		DF85C63D97D38E37E4B38B6E4DF1D60C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CE043B502BBC0DB56C08DEB2DAD7910 /* HFLibTest.xcconfig */;
+			baseConfigurationReference = 68D76C08606E0288209A43DED6CB6C05 /* HFLibTest.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -632,10 +633,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		EE9AF4AB2B69508DFAE1330C65726F1F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -707,15 +709,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D3BB8BA196C0C7C33C31FB962E16441 /* Build configuration list for PBXNativeTarget "HFLibTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA7A060594468547873851610FAEFB7A /* Debug */,
-				2CED564DE409D27270FF0DF5D2A6F472 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2AA7E486D882AB89F98D400819D9163F /* Build configuration list for PBXNativeTarget "Pods-HFLibTest_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -730,6 +723,15 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA3B48BD29BC3D06CBAA3E9C454E1AC /* Build configuration list for PBXNativeTarget "HFLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2930611B774F0EC76F858F5AFD0A4C38 /* Debug */,
+				DF85C63D97D38E37E4B38B6E4DF1D60C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

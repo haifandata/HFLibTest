@@ -7,7 +7,7 @@
 //
 
 #import "HFViewController.h"
-
+#import <HFLibTest/HFTestViewController.h>
 @interface HFViewController ()
 
 @end
@@ -24,6 +24,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)openAction:(UIButton *)sender {
+    HFTestViewController *VC = [[HFTestViewController alloc] init];
+    
+    [self presentViewController:VC animated:YES completion:nil];
 }
 
 @end

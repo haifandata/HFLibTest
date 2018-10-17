@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HFTestViewController.h"
 
 FOUNDATION_EXPORT double HFLibTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char HFLibTestVersionString[];
