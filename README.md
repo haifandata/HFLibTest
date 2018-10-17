@@ -22,7 +22,7 @@ pod 'HFLibTest'
 
 ## Author
 
-1071942338, 1071942338@qq.com
+haifandata, zhangwenqi@haifandata.com
 
 ## License
 
